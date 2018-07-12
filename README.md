@@ -1,5 +1,5 @@
-##This is a mini server used to verify the validation of a word
-##Usage
+## This is a mini server used to verify the validation of a word
+## Usage
 
 ```
 $ docker pull zlczlc/word_validation
