@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {%if title!=Null%}
+    <title>{{title}} is in</title>
+    {%else%}
+    <title>no one in</title>
+    {% endif %}
+</head>
+<body>
+{% block content %}{% endblock %}
+</body>
+</html>

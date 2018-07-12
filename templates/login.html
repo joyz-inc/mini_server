@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "base.html"%}
+
+{% block content %}
+<form method="POST" action="/success">
+     {{form.hidden_tag()}}
+    <h2>Please input a word</h2>{{ "Test word" }} {{ form.name(size=20) }}
+    <input type="submit" value="Go">
+</form>
+{% endblock %}
